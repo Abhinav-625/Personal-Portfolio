@@ -125,7 +125,7 @@ textarea{
     width: 100%;
 }
 #aboutDiv1{
-    background-image: url(img/myImg2.jpg);
+    background-image: url(img/myImg2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -408,3 +408,4 @@ textarea{
 #contactEnter:active{
     border: 0;
 }
+
