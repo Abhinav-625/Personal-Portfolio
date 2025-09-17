@@ -9,7 +9,7 @@ The website contains 7 main components:
 3. About - Something about myself, to put your own image save your image in the img folder with the name "MyImg2.png".
 4. Skills - Skills shown by boxes here with a percentage which shows about the knowledge in that specefic area, which is truly my self estimated number, to add, delete or modify a skill work with the divs with "skillsDivs" class inside The div with the id "skillsDiv1". Handle CSS accordingly.
 5. Projects - My personal projects are mentioned here, to mention your own projects use the div with class "projects" and work with the div with id "projectsDiv1", "projectsDiv2", and so on. Handle CSS accordingly.
-6. Contact - To let the viewers connect with me.\
+6. Contact - To let the viewers connect with me. Also, I have added the email format checking using JS Regular Expressions.\
    NOTE: To achieve this functionality on your system you will have to do some changes in the JS file.\
    At the very first line, replace PUBLIC_KEY with your emailjs public key found in the account section.\
    Inside the sendMail function in its return statement, replace the "SERVICE_ID" with your emailjs service id found in the Email Services and "TEMPLATE_ID" with your template's id found in its settings.\
