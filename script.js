@@ -1,4 +1,4 @@
-emailjs.init("hbT0qdy2eueQ36qBM");
+emailjs.init("PUBLIC_KEY");
 
 const enter = document.querySelector("#contactEnter");
 const Name = document.querySelector("#contactName");
@@ -11,7 +11,7 @@ function sendMail() {
         email: Email.value,
         paragraph: Paragraph.value,
     };
-    return emailjs.send("service_sq6w0nn", "template_n38uotd", parms);
+    return emailjs.send("SERVICE_ID", "TEMPLATE_ID", parms);
 }
 
 function isValidEmail(email) {
@@ -65,5 +65,6 @@ const clear = () => {
         err3.style.display = "none";
     }
 }
+
 
 enter.addEventListener("click", clear);
