@@ -1,0 +1,410 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
+}
+html{
+    scroll-padding-top: 9vh;
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 9vh;
+}
+a{
+    cursor: pointer;
+}
+input{
+    cursor: text;
+}
+textarea{
+    cursor: text;
+}
+.nav-bar{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 2vh 0;
+    width: 100%;
+    height: 5vh;
+    top: 0;
+    position: fixed;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 0.5px 5px #DBE3A7;
+}
+.nav-barElement{
+    color: black;
+    font-size: 2.5vmin;
+}
+#space{
+    width: 30%;
+}
+.home{
+    display: flex;
+    width: 100%;
+}
+#homeDiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 50%;
+}
+#homeDiv11{
+    display: flex;
+    flex-direction: column;
+    margin: 12%;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+#homeHeading{
+    font-size: 5vw;
+    margin-bottom: 1rem;
+}
+#homeName{
+    color:#CDA7E3;
+}
+#homeContact{
+    width: fit-content;
+    font-size: 2.5vmin;
+    font-weight: bold;
+    background-color: #CDA7E3;
+    padding: 0.3em 1.6em;
+    border-radius: 0.3em;
+    color: black;
+}
+#homeLogos{
+    display: flex;
+    justify-content: space-between;
+    height: 2.2rem;
+}
+.logos{
+    display: block;
+    color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2.2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+#linkedin{
+    background-image: url(img/linkedin.png);
+}
+#github{
+    background-image: url(img/github.png);
+}
+#email{
+    background-image: url(img/email.png);
+}
+.spaceLogos{
+    flex-grow: 0.8;
+}
+#homeDiv2{
+    background-image: url(img/myImg1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 50vw;
+}
+.Heads{
+    display: flex;
+    justify-content: center;
+    font-size: 5vmin;
+    padding: 6% 0;
+    color: #CDA7E3;
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+}
+.about{
+    display: flex;
+    width: 100%;
+}
+#aboutDiv1{
+    background-image: url(img/myImg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    min-height: 50vw;
+    border-radius: 20px;
+}
+#aboutDiv2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#aboutDiv21{
+    margin: 12%;
+}
+#aboutHeading{
+    margin-bottom: 1rem;
+    font-family: cursive;
+}
+#aboutParagraph{
+    font-family: cursive;
+    font-weight: 600;
+}
+.skills{
+    width: 100%;
+}
+#skillsHeading{
+    padding-left: 5vw;
+    font-size: 4vmin;
+}
+#skillsDiv1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5vmin 5vw;
+    gap: 2vw;
+}
+.skillsDivs{
+    width: 40vw;
+    height: 10vmin;
+    background-color: #DBE3A7;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px #DBE3A7;
+}
+.skillsProgressHeading{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skillsIcon{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 2% 0 5%;
+}
+.skillsName{
+    font-size: 1.5rem;
+}
+.skillsGap{
+    flex-grow: 1;
+}
+.skillsPercent{
+    margin-right: 5%;
+    font-weight: 900;
+}
+.skillsProgress{
+    background-color: #CDA7E3;
+    height: 10%;
+    border-radius: 0 10px 10px 0;
+}
+#skillsIconHtml{
+    background-image: url(img/html.png);
+}
+#htmlProgress{
+    width: 85%;
+}
+#skillsIconCss{
+    background-image: url(img/css.png);
+}
+#cssProgress{
+    width: 80%;
+}
+#skillsIconJs{
+    background-image: url(img/js.png);
+}
+#jsProgress{
+    width: 70%;
+}
+#skillsIconCpp{
+    background-image: url(img/cpp.png);
+}
+#cppProgress{
+    width: 75%;
+}
+#skillsIconPython{
+    background-image: url(img/python.png);
+}
+#pythonProgress{
+    width: 80%;
+}
+#skillsIconMysql{
+    background-image: url(img/mysql.png);
+}
+#mysqlProgress{
+    width: 70%;
+}
+#skillsIconJava{
+    background-image: url(img/java.png);
+}
+#javaProgress{
+    width: 50%;
+}
+#skillsIconBootstrap{
+    background-image: url(img/bootstrap.png);
+}
+#BootstrapProgress{
+    width: 65%;
+}
+#skillsIconMongodb{
+    background-image: url(img/mongodb.png);
+}
+#MongodbProgress{
+    width: 50%;
+}
+#skillsIconReact{
+    background-image: url(img/react.png);
+}
+#ReactProgress{
+    width: 30%;
+}
+.projects{
+    width: 100%;
+}
+#projectsDiv1{
+    margin: 2vmin 5vw;
+}
+#projectsHeading1{
+    font-family: cursive;
+    margin-bottom: 0.2rem;
+}
+#projectsLink11{
+    font-family: cursive;
+    background-color: #CDA7E3;
+    font-family: cursive;
+    color: black;
+    padding: 0.3rem 2rem;
+    border-radius: 10px;
+}
+#projectsParagraph1{
+    margin-top: 1rem;
+    font-family: cursive;
+}
+#projectsList1{
+    list-style: inside;
+}
+.projectsList1items{
+    font-family: cursive;
+}
+#projectsLink12{
+    font-family: cursive;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+#projectsDiv1icon{
+    background-image: url(img/link.png);
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+    width: 100%;
+}
+#contactDiv1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contactDiv11{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contactElements{
+    margin: 4% 0;
+    border-radius: 5px;
+    width: 90%;
+    padding: 0 5%;
+    font-size: 1rem;
+    font-family: serif;
+}
+.contactError{
+    width: fit-content;
+    border-radius: 2px;
+    font-family: serif;
+    font-size: 0.9em;
+    padding: 0.3rem 1.3rem;
+    display: none;
+    box-shadow: 1px 1px 5px #DBE3A7;
+}
+#contactName{
+    height: 2rem;
+}
+#contactEmail{
+    height: 2rem;
+}
+#contactParagraph{
+    height: 10rem;
+    padding: 5%;
+    line-height: 1.5rem;
+    resize: none;
+}
+#contactDiv2{
+    margin-top: 3%;
+    width: 30vw;
+    justify-content: end;
+    display: flex;
+    margin-bottom: 3%;
+}
+#contactEnter{
+    height: 3rem;
+    width: 45%;
+    border-radius: 5px;
+    background-color: #CDA7E3;
+    font-size: 1rem;
+}
+.footer{
+    background-color: #2e1e3f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+    width: 100%;
+}
+#footerName{
+    color: white;
+    font-family: serif;
+    font-size: 2.5vmin;
+    margin-bottom: 1%;
+}
+#footerContent{
+    color: white;
+    font-family: serif;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 150%;
+}
+#homeContact:hover{
+    font-size: 2.7vmin;
+}
+.logos:hover{
+    height: 2.2rem;
+}
+#projectsLink11:hover{
+    font-weight: bold;
+    background-color: #2e1e3f;
+    color: white;
+}
+#projectsLink12:hover{
+    font-weight: bold;
+}
+.contactElements:hover{
+    border: 3px solid black;
+}
+#contactEnter:hover{
+    border: 3px solid;
+}
+#contactEnter:active{
+    border: 0;
+}
