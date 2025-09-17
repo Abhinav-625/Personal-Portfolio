@@ -15,3 +15,5 @@ The website contains 7 main components:
    Inside the sendMail function in its return statement, replace the "SERVICE_ID" with your emailjs service id found in the Email Services and "TEMPLATE_ID" with your template's id found in its settings.\
    Also, the name of the keys of your parms object inside the sendMail function should be exactly same in your template enclosed in {{ }} otherwise it will throw error 400 and email functionality won't work.
 8. Footer - Any website's basic component.
+To view my website click on the following link:
+https://abhinav-625.github.io/Personal-Portfolio/
