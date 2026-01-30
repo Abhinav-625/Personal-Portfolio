@@ -36,7 +36,8 @@ textarea{
 }
 .nav-barElement{
     color: black;
-    font-size: 2.5vmin;
+    font-size: 1.7em;
+    padding: 0 1em;
 }
 #space{
     width: 30%;
@@ -60,7 +61,7 @@ textarea{
     justify-content: space-between;
 }
 #homeHeading{
-    font-size: 5vw;
+    font-size: 4em;
     margin-bottom: 1rem;
 }
 #homeName{
@@ -68,7 +69,7 @@ textarea{
 }
 #homeContact{
     width: fit-content;
-    font-size: 2.5vmin;
+    font-size: 1.5em;
     font-weight: bold;
     background-color: #CDA7E3;
     padding: 0.3em 1.6em;
@@ -112,7 +113,7 @@ textarea{
 .Heads{
     display: flex;
     justify-content: center;
-    font-size: 5vmin;
+    font-size: 4em;
     padding: 6% 0;
     color: #CDA7E3;
     text-decoration: underline;
@@ -145,17 +146,20 @@ textarea{
 #aboutHeading{
     margin-bottom: 1rem;
     font-family: cursive;
+    font-size: 2rem;
 }
 #aboutParagraph{
     font-family: cursive;
     font-weight: 600;
+    font-size: 1.1em;
 }
 .skills{
     width: 100%;
 }
 #skillsHeading{
     padding-left: 5vw;
-    font-size: 4vmin;
+    font-size: 2.5em;
+    font-family: cursive;
 }
 #skillsDiv1{
     display: flex;
@@ -186,7 +190,7 @@ textarea{
     margin: 0 2% 0 5%;
 }
 .skillsName{
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 .skillsGap{
     flex-grow: 1;
@@ -266,19 +270,20 @@ textarea{
 #projectsDiv1{
     margin: 2vmin 5vw;
 }
-#projectsHeading1{
+.projectsHeading{
     font-family: cursive;
     margin-bottom: 0.2rem;
+    font-size: 2em;
 }
-#projectsLink11{
+.projectsLink11{
     font-family: cursive;
+    font-size: 1em;
     background-color: #CDA7E3;
-    font-family: cursive;
     color: black;
     padding: 0.3rem 2rem;
     border-radius: 10px;
 }
-#projectsParagraph1{
+.projectsParagraph1{
     margin-top: 1rem;
     font-family: cursive;
 }
@@ -288,14 +293,14 @@ textarea{
 .projectsList1items{
     font-family: cursive;
 }
-#projectsLink12{
+.projectsLink12{
     font-family: cursive;
     color: black;
     display: flex;
     align-items: center;
     margin-top: 1rem;
 }
-#projectsDiv1icon{
+.projectsDiv1icon{
     background-image: url(img/link.png);
     background-size: contain;
     width: 1.5rem;
@@ -358,11 +363,11 @@ textarea{
     margin-bottom: 3%;
 }
 #contactEnter{
-    height: 3rem;
+    height: 3em;
     width: 45%;
     border-radius: 5px;
     background-color: #CDA7E3;
-    font-size: 1rem;
+    font-size: 1em;
 }
 .footer{
     background-color: #2e1e3f;
@@ -375,13 +380,13 @@ textarea{
 #footerName{
     color: white;
     font-family: serif;
-    font-size: 2.5vmin;
+    font-size: 2em;
     margin-bottom: 1%;
 }
 #footerContent{
     color: white;
     font-family: serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center;
     line-height: 150%;
 }
@@ -409,3 +414,96 @@ textarea{
     border: 0;
 }
 
+@media(max-width: 600px){
+    .nav-bar{
+        padding: 0;
+    }
+    .nav-barElement{
+        font-size: .7em;
+    }
+    .Heads{
+        font-size: 2em;
+    }
+    #homeHeading{
+        font-size: 1.5em;
+        margin: 0;
+    }
+    #homeContact{
+        font-size: .6em;
+    }
+    #space1{
+        height: 1vh;
+    }
+    .logos{
+        width: 1.1rem;
+        height: 1rem;
+    }
+    #aboutDiv1{
+        background-image: none;
+        width: 0%;
+    }
+    #aboutDiv2{
+        width: 100%;
+    }
+    #aboutHeading{
+        font-size: 1.3em;
+    }
+    #aboutParagraph{
+        font-weight:lighter;
+        font-size: .8em;
+    }
+    #skillsHeading{
+        font-size: 1.2em;
+    }
+    .skillsName{
+        font-size: .8em;
+    }
+    .skillsPercent{
+        font-size: .7em;
+    }
+    .projectsHeading{
+        font-size: 1.2em;
+    }
+    .projectsLink11{
+        font-size: .7em;
+    }
+    .projectsParagraph1{
+        font-size: .7em;
+    }
+    .projectsList1items{
+        font-size: .7em;
+    }
+    .projectsDiv1icon{
+        width: 1.3em;
+        height: 1.3em;
+    }
+    .projectsLink12{
+        font-size: .7em;
+    }
+    #contactDiv1{
+        width: 70%;
+    }
+    #contactName{
+        height: 1.6em;
+    }
+    #contactEmail{
+        height: 1.6em;
+    }
+    #contactParagraph{
+        height: 10em;
+        line-height: 1.3em;
+    }
+    #contactDiv2{
+        width: 70%;
+    }
+    #contactEnter{
+        font-size: .8em;
+        height: 2em;
+    }
+    #footerName{
+        font-size: 1em;
+    }
+    #footerContent{
+        font-size: .6em;
+    }
+}
