@@ -14,6 +14,12 @@ function sendMail() {
     return emailjs.send("SERVICE_ID", "TEMPLATE_ID", parms);
 }
 
+function redirect() {
+    const subject = "Let's Connect!"
+    const body = `Hey Abhinav!\nThis is ${Name.value} here.\n\n${Paragraph.value}`
+    window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=aadibro25@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
 function isValidEmail(email) {
     const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     return re.test(email);
@@ -37,6 +43,7 @@ const clear = () => {
             .catch((err) => {
                 alert("Failed to send: " + err)
             });
+        redirect();
         return;
     }
     if (Name.value === "") {
