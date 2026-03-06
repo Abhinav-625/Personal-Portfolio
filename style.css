@@ -194,44 +194,16 @@ textarea{
 .skillsGap{
     flex-grow: 1;
 }
-.skillsPercent{
-    margin-right: 5%;
-    font-weight: 900;
-}
 .skillsProgress{
     background-color: #CDA7E3;
     height: 10%;
     border-radius: 0 10px 10px 0;
 }
-#skillsIconHtml{
-    background-image: url(img/html.png);
-}
-#htmlProgress{
-    width: 85%;
-}
-#skillsIconCss{
-    background-image: url(img/css.png);
-}
-#cssProgress{
-    width: 80%;
-}
-#skillsIconJs{
-    background-image: url(img/js.png);
-}
-#jsProgress{
-    width: 70%;
-}
-#skillsIconCpp{
-    background-image: url(img/cpp.png);
-}
-#cppProgress{
-    width: 75%;
-}
 #skillsIconPython{
     background-image: url(img/python.png);
 }
 #pythonProgress{
-    width: 80%;
+    width: 60%;
 }
 #skillsIconMysql{
     background-image: url(img/mysql.png);
@@ -243,13 +215,13 @@ textarea{
     background-image: url(img/java.png);
 }
 #javaProgress{
-    width: 50%;
+    width: 90%;
 }
-#skillsIconBootstrap{
-    background-image: url(img/bootstrap.png);
+#skillsIconSpringboot{
+    background-image: url(img/springboot.png);
 }
-#BootstrapProgress{
-    width: 65%;
+#springbootProgress{
+    width: 70%;
 }
 #skillsIconMongodb{
     background-image: url(img/mongodb.png);
